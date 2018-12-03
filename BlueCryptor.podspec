@@ -12,7 +12,7 @@ spec.ios.deployment_target = "8.0"
 spec.osx.deployment_target = "10.10"
 spec.tvos.deployment_target = "9.0"
 spec.watchos.deployment_target = "2.0"
-s.source   = { :git => "https://github.com/IBM-Swift/BlueCryptor.git", :tag => s.version }
+s.source   = { :git => "https://github.com/v57/BlueCryptor.git", :tag => s.version }
 s.source_files = "Sources/Cryptor/*.swift"
 s.pod_target_xcconfig =  {
 'SWIFT_VERSION' => '4.2',
